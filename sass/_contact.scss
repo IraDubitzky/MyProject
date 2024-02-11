@@ -1,0 +1,79 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100vw;
+    height: 70vh;
+    direction: rtl;
+    background-image: url(../Images/contact_us.png);
+    background-color: #2C2C2C;
+
+}
+
+.formSection {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSection h2 {
+    font-size: 2.5rem;
+    font-family: heeboBlack;
+    color: white;
+    text-align: start;
+    width: 40%;
+}
+
+.formSection p {
+    font-size: 1rem;
+    font-family: heeboRegular;
+    color: white;
+    width: 40%;
+    text-align: right;
+}
+
+.formCase {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 40%;
+}
+
+.formCase label {
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+    font-family: heeboBlack;
+}
+
+.formCase input {
+    width: 17vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+    border: 0;
+    border-bottom: 3px solid darkorange;
+}
+
+.formCase textarea {
+    width: 17vw;
+    height: 12vh;
+    resize: none;
+    margin-bottom: 1vh;
+    border: 0;
+    border-bottom: 3px solid darkorange;
+}
+
+.formCase input[type="submit"] {
+    width: 5vw;
+    height: 4vh;
+    border-radius: 100px;
+    font-size: 1rem;
+    color: white;
+    font-family: heeboMedium;
+    background-color: darkorange;
+}

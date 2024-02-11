@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  .topcase {
+    width: 100%;
+  }
+  .topcase h1 {
+    font-size: 2rem;
+  }
+  .topcase p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,13 @@
+.icons {
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons div {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
