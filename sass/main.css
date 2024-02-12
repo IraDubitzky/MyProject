@@ -2,17 +2,14 @@
   font-family: heeboBlack;
   src: url(../static/Heebo-Black.ttf);
 }
-
 @font-face {
   font-family: heeboRegular;
   src: url(../static/Heebo-Regular.ttf);
 }
-
 @font-face {
   font-family: heeboMedium;
   src: url(../static/Heebo-Medium.ttf);
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -135,9 +132,10 @@
 .about button {
   font-size: 1rem;
   font-family: heeboMedium;
-  padding: 5px;
+  padding: 6px;
   border-radius: 20px;
   background-color: darkorange;
+  color: white;
 }
 
 .myGallery {
@@ -172,7 +170,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2vh;
   -moz-column-gap: 2vh;
-  column-gap: 2vh;
+       column-gap: 2vh;
 }
 
 .card {
@@ -327,84 +325,66 @@ footer {
   body {
     width: 100%;
   }
-
   .navbar {
     width: 100%;
     height: 7vh;
     font-size: 0.8rem;
   }
-
   .navbar-collapse {
     background-color: whitesmoke;
   }
-
   .topCase {
     width: 100%;
     height: 90%;
   }
-
   .topCase h1 {
     font-size: 2.8rem;
   }
-
   .topCase p {
     font-size: 0.8rem;
     width: 65%;
   }
-
   .icons {
     width: 100%;
     height: 6vh;
   }
-
   .icons div {
     width: 100%;
   }
-
   .icons div img {
     width: 8vw;
     height: 4vh;
   }
-
   .about {
     width: 100%;
   }
-
   .about img {
     width: 20vw;
     height: 12vh;
   }
-
   .about h2 {
     font-size: 2rem;
   }
-
   .about p {
     font-size: 0.8rem;
   }
-
   .about span {
     font-size: 1rem;
   }
-
   .about button {
     font-size: 0.8rem;
     padding: 3px;
   }
-
   .myGallery {
     width: 100%;
     height: 100%;
   }
-
   .myGallery h3 {
     font-size: 1.8rem;
   }
-
   .myGallery p {
     font-size: 0.8rem;
   }
-
   .containerCards {
     width: 100%;
     height: 100%;
@@ -415,22 +395,18 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
   .card {
     width: 80vw;
   }
-
   .card button img {
     width: 8vw;
   }
-
   .contact {
     width: 100%;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
   }
-
   .formSection {
     width: 80vw;
     display: flex;
@@ -439,34 +415,27 @@ footer {
     align-items: start;
     margin: 5vw;
   }
-
   .formSection h2 {
     font-size: 1.8rem;
   }
-
   .formSection p {
     font-size: 0.8rem;
     width: 75%;
   }
-
   .formCase {
     width: 75%;
   }
-
   .formCase label {
     font-size: 0.6rem;
   }
-
   .formCase input {
     width: 55vw;
     height: 3vh;
   }
-
   .formCase textarea {
     width: 55vw;
     height: 9vh;
   }
-
   .formCase input[type=submit] {
     width: 13vw;
     height: 3vh;
@@ -476,12 +445,10 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
   footer {
     width: 100%;
     height: 14vh;
   }
-
   .footerIcons {
     width: 80%;
     display: grid;
@@ -489,18 +456,14 @@ footer {
     gap: 20px;
     text-align: center;
   }
-
   .footerIcons img {
     width: 6vw;
     height: 2.5vh;
   }
-
   .copy {
     width: 100%;
     height: 2vh;
     font-size: 0.8rem;
     text-align: center;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
