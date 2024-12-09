@@ -18,5 +18,5 @@
 
 כלל הדפים הותאמו לאופן הרספונסיבי - WEB ו- MOBILE
 
-בקוד האתר השתמשתי בכלים כגון - FLEX, GRID, POSITION, LINKS, CODE ASCII, FONTS, ועוד...
+
 
