@@ -140,7 +140,7 @@
 
 .myGallery {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,7 +165,7 @@
 
 .containerCards {
   width: 50%;
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2vh;
@@ -321,7 +321,7 @@ footer {
   direction: rtl;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1044px) {
   body {
     width: 100%;
   }
@@ -335,7 +335,7 @@ footer {
   }
   .topCase {
     width: 100%;
-    height: 90%;
+    height: auto;
   }
   .topCase h1 {
     font-size: 2.8rem;
@@ -357,6 +357,7 @@ footer {
   }
   .about {
     width: 100%;
+    height: auto;
   }
   .about img {
     width: 20vw;

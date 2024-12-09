@@ -19,6 +19,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+
+}
+
 
 .navbar {
     width: 99.9%;
@@ -102,9 +107,13 @@
 }
 
 .icons div {
-    width: 30%;
     display: flex;
     justify-content: space-evenly;
+}
+
+#faIcon {
+    width: 100px;
+    height: 100px;
 }
 
 .bottom {
@@ -117,8 +126,8 @@
 }
 
 .bottom img {
-    width: 50%;
-    height: 70%;
+    max-width: 80%;
+    height: auto;
 }
 
 footer {
@@ -169,7 +178,7 @@ footer div {
     }
 
     .icons div {
-        height: 8vh;
+        height: auto;
     }
 
     .bottom {
@@ -184,5 +193,59 @@ footer div {
     footer div {
         font-size: 0.8rem;
         margin-top: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 5px;
+        overflow-x: hidden;
+    }
+
+    .top h1 {
+        font-size: 1.8rem;
+    }
+
+    .top p {
+        font-size: 0.9rem;
+    }
+
+    .top button {
+        font-size: 0.5rem;
+    }
+
+    .icons div img {
+        width: 40px;
+    }
+
+    .bottom img {
+        max-width: 90%;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .top h1 {
+        font-size: 1.5rem;
+    }
+
+    .top p {
+        font-size: 0.8rem;
+    }
+
+    .icons div img {
+        width: 15vw;
+    }
+
+    .bottom img {
+        max-width: 100%;
     }
 }
