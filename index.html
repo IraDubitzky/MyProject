@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -261,3 +262,209 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../MyProject/sass/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-#EBFEFF d-flex justify-content-between fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../MyProject/Images/me.jpeg" alt="Logo" width="40"
+                    height="40">Ira Dubitzky</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navDirection">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-3 me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">ראשי</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">אודות</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">גלרית עבודות</a>
+                        </li>
+
+                        <!--                         <li class="nav-item dropdown active" aria-current="page" href="#gallery">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                גלריית עבודות
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../project1.html">Project 1</a></li>
+                                <li><a class="dropdown-item" href="../project2.html">Project 2</a></li>
+                                <li><a class="dropdown-item" href="../project3.html">Project 3</a></li>
+                                <li><a class="dropdown-item" href="../project4.html">Project 4</a></li>
+                                <li><a class="dropdown-item" href="../project5.html">Project 5</a></li>
+                                <li><a class="dropdown-item" href="../project6.html">Project 6</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactme">צור קשר</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="topCase">
+        <h1>תיק עבודות</h1>
+        <p>
+            ברוכים הבאים לאתר פורטפוליו שלי.
+            <br>
+            כאן תוכלו לראות ולהתרשם מעבודות שעשיתי, תוכלו לראות באיזה כלים השתמשתי על מנת להגיע למקסימום תוצאה.
+        </p>
+
+    </div>
+    <div class="icons">
+        <div>
+            <img src="../MyProject/Images/html.png" alt="html icon">
+            <img src="../MyProject/Images/bootstrap.png" alt="bootstrap icon">
+            <img src="../MyProject/Images/css.png" alt="css icon">
+            <img src="../MyProject/Images/sass.png" alt="sass icon">
+            <img src="../MyProject/Images/javaScript.png" alt="javaScript icon">
+        </div>
+    </div>
+    <div class="about" id="aboutme">
+        <img src="../MyProject/Images/me.jpeg" alt="my pic">
+        <h2>קצת עלי</h2>
+        <p>שמי אירה דוביצקי. מתגוררת בצפון.
+            נכנסתי לעולם התכנות לאחר היותי מאלפת כלבים. תחום בניית אתרים נורא סקרן אותי עקב מכלול של ערכים שהוא מכיל
+            כגון פרפקציוניסטיות, ראיה רחבה וירידה לפרטים הכי קטנים.
+            הסבלנות והרצון להגיע למקסימום תוצאה על מנת לתת מענה של 100% אלה ערכים שמנחים אותי בחיים ולכן זהו המקצוע
+            שנבחר להיות עיקרי.
+            <br>
+            <span>"ערך עליון זהו ערך שיוביל אותך לכל החיים"</span>
+        </p>
+        <div>
+            <a href="../MyProject/Download/קורות חיים אירה דוביצקי קפלון.pdf" download><button class="button"
+                    .value>להורדת
+                    קו"ח</button></a>
+        </div>
+    </div>
+    <div class="myGallery" id="gallery">
+        <h3>עבודות נבחרות</h3>
+        <p>להלן כמה דפי נחיתה שהכנתי על ידי שימוש בארסנל כלים מקצועי והתאמתם לאופן הרספונסיבי</p>
+        <div class="containerCards">
+            <div class="card">
+                <img src="../MyProject/Images/project1.PNG" alt="project1">
+                <h5> פרויקט מס' 1</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project1.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+            <div class="card">
+                <img src="../MyProject/Images/project2.PNG" alt="project2">
+                <h5> פרויקט מס' 2</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project2.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+            <div class="card">
+                <img src="../MyProject/Images/project3.PNG" alt="project3">
+                <h5> פרויקט מס' 3</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project3.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+            <div class="card">
+                <img src="../MyProject/Images/project4.PNG" alt="project4">
+                <h5> פרויקט מס' 4</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project4.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+            <div class="card">
+                <img src="../MyProject/Images/project5.PNG" alt="project5">
+                <h5> פרויקט מס' 5</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project5.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+            <div class="card">
+                <img src="../MyProject/Images/project6.PNG" alt="Project6">
+                <h5> פרויקט מס' 6</h5>
+                <p>לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.</p>
+                <button onclick="document.location='../MyProject/Projects/project6.html'"><img
+                        src="../MyProject/Images/next.png" alt="go icon"></button>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="formSection" id="contactme">
+            <h2>צור קשר</h2>
+            <p>איזה כיף שביקרתם באתר שלי. במידה ויש לכם שאלות או שתרצו להתייעץ, מוזמנים לפנות אלי בכלל הערוצים</p>
+            <div class="formCase">
+                <form action="server side program" method="post">
+                    <div>
+                        <label for="name"> שם מלא</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="email">דוא"ל</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div>
+                        <label for="tel">טלפון</label>
+                        <input type="text" id="tel">
+                    </div>
+                    <div>
+                        <label for="text">הודעה</label>
+                        <textarea name="ha" id="text"></textarea>
+                        <div>
+                            <input type="submit" value="שליחה">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerIcons">
+            <div class="location"><a href="https://maps.app.goo.gl/YrQyewpfwJxaACdX9" target="_blank"><img
+                        src="../MyProject/Images/location.png" alt="location icon"></a></div>
+            <div class="whatsapp"><a href="https://wa.link/z1fqyb" target="_blank"><img
+                        src="../MyProject/Images/whatsapp32.png" alt="whatsapp icon"></a>
+            </div>
+            <div class="facebook"><a href="https://www.facebook.com/irka.dubitzky/" target="_blank"><img
+                        src="../MyProject/Images/facebook32.png" alt="facebook icon"></a></div>
+            <div class="linkedin"><a href="https://www.linkedin.com/in/ira-dubitzky" target="_blank">
+                    <img src="../MyProject/Images/linkedin32.png" alt="linkedin icon"></a></div>
+            <div class="email">
+                <a href="mailto:dubitzkyira@gmail.com">
+                    <img src="../MyProject/Images/envelope.png" alt="envelope icon">
+                </a>
+            </div>
+
+            <div class="phone"><a href="tel:+972545754419" target="_blank"><img src="../MyProject/Images/phone32.png"
+                        alt="phone icon"></a></div>
+        </div>
+    </footer>
+    <div class="copy">
+        <span>כל הזכויות שמורות Ira Dubitzky&copy; </span>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
