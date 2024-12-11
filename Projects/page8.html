@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game Chooses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="../js/mathGameChooses.js" defer></script>
+
+    <style>
+        body {
+            background-image: url(../Images/real-science-pi-symbol-monochrome-design.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        table.table th,
+        table.table td {
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container p-4">
+        <h1 class="display-3 text-secondary text-center"><strong>Math Game</strong> <i
+                class="fa-solid fa-calculator"></i></h1>
+        <p class="text-center mt-3">Choose operator and range of numbers and start your practice</p>
+
+        <div class="row g-3 justify-content-center mt-4">
+            <div class="col-12 col-md-6">
+                <select name="operators" class="form-select text-center" id="operators">
+                    <option selected>Operator</option>
+                    <option value="plus">+</option>
+                    <option value="minus">-</option>
+                    <option value="multiplication">*</option>
+                    <option value="division">/</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-6">
+                <select name="ranges" class="form-select text-center" id="ranges">
+                    <option selected>Ranges</option>
+                    <option value="10">1-10</option>
+                    <option value="100">1-100</option>
+                    <option value="1000">1-1000</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row g-3 mt-5 align-items-center">
+            <div class="col-12 col-md-4">
+                <h3 class="fw-bold display-5 text-center" id="exercise"></h3>
+            </div>
+            <div class="col-12 col-md-1 text-center">
+                <h3 class="fw-bold display-3">=</h3>
+            </div>
+            <div class="col-12 col-md-3 text-center">
+                <input type="number" placeholder="Your answer" class="form-control" id="solution">
+            </div>
+            <div class="col-12 col-md-2">
+                <button class="btn btn-info w-100" onclick="checkAnswer()">Check</button>
+            </div>
+            <div class="col-12 col-md-2">
+                <button class="btn btn-secondary w-100" onclick="clearBoard()">Clear</button>
+            </div>
+        </div>
+
+        <div class="table-responsive mt-5 text-center">
+            <table class="table table-striped text-sm-end text-center">
+                <thead>
+                    <tr>
+                        <th>Exercise</th>
+                        <th>Correct answer</th>
+                        <th id="ans">Your answer</th>
+                        <th id="score">Score</th>
+                    </tr>
+                </thead>
+                <tbody id="calculations">
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="text-center mt-4">Total score: <span id="totalScore"></span></h3>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

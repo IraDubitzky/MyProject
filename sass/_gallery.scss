@@ -1,6 +1,6 @@
 .myGallery {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@
 
 .containerCards {
     width: 50%;
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vh;
